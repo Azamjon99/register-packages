@@ -14,5 +14,12 @@
     "autoload": {
         "psr-4": {
             "Azamjon99\\Register\\": "src/"
-        }}
+        }},
+     "extra": {
+            "laravel": {
+                "providers": [
+                    "Azamjon99\\Register\\RegisterServiceProvider"
+                ]
+            }
+        }
 }
